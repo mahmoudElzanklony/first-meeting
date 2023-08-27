@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /controlpanel/
+Allow: /articles
+Allow: /index
+Allow: /auth
+Allow: /profile
+Allow: /search
+Allow: /posts
+Allow: /sending
