@@ -73,9 +73,9 @@
                         <span>مشاركه الملف الشخصي</span>
                         <div class="clear"></div>
                         <p>
-                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://first-meeting.com/sending/{{auth()->user()->id}}"><img src='{{asset("images/icons/facebook.png")}}'></a>
-                            <a target="_blank" href="https://twitter.com/intent/tweet?url=https://first-meeting.com/sending/{{auth()->user()->id}}"><img src='{{asset("images/icons/twitter.png")}}'></a>
-                            <a target="_blank" href="https://web.whatsapp.com/send?text=https://first-meeting.com/sending/{{auth()->user()->id}}"><img style="width: 100px;margin-right: 0;" src='{{asset("images/icons/whatsapp.png")}}'></a>
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://first-meeting.net/sending/{{auth()->user()->id}}"><img src='{{asset("images/icons/facebook.png")}}'></a>
+                            <a target="_blank" href="https://twitter.com/intent/tweet?url=https://first-meeting.net/sending/{{auth()->user()->id}}"><img src='{{asset("images/icons/twitter.png")}}'></a>
+                            <a target="_blank" href="https://web.whatsapp.com/send?text=https://first-meeting.net/sending/{{auth()->user()->id}}"><img style="width: 100px;margin-right: 0;" src='{{asset("images/icons/whatsapp.png")}}'></a>
                         </p>
                     </div>
                     <div>
