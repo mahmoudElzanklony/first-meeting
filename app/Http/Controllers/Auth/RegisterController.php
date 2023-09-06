@@ -107,7 +107,7 @@ class RegisterController extends Controller
             // verify
             
             $verify = 'رمز التفعيل الخاص بك في موقع اللقاء الاول هو '.$key;
-            $endpoint = "https://smssmartegypt.com/sms/api/?username=9Wl#7c1&password=zanklony202017&sendername=First Meet&mobiles=20".intval($data['phone'])."&message=".urlencode($verify)."&Content-Type=application/json;charset=utf-8";
+            $endpoint = "https://smssmartegypt.com/sms/api/?username=9Wl%237c1&password=zanklony202017&sendername=First Meet&mobiles=20".intval($data['phone'])."&message=".urlencode($verify)."&Content-Type=application/json;charset=utf-8";
             $client = new \GuzzleHttp\Client();
             
 

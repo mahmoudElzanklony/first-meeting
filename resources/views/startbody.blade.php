@@ -18,7 +18,7 @@
                         <li class="normal_li_nav"><a href="/">اﻟﺮﺋﻴﺴﻴﻪ</a></li>
                         @auth()
                         <li class="normal_li_nav"><a href="/profile/default">اﻟﻤﻠﻒ اﻟﺸﺨﺼﻲ</a></li>
-                        <li class="normal_li_nav"><a href="/search/">البحث عن صديق</a></li>
+                        <li class="normal_li_nav"><a href="/search">البحث عن صديق</a></li>
                         @endauth()
                         <li class="normal_li_nav"><a href="/policy">سياسه الخوصيه</a></li>
                         <li class="normal_li_nav"><a href="/whous">من نحن</a></li>
