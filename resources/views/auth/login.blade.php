@@ -31,7 +31,11 @@
                 </div>
             </form>
              <p><a href="/auth/reset"> نسيت كلمه المرور!!</a></p>
-             <div class="shape" >        
+             <p>
+                 <span>ليس لديك حساب</span>
+                 <a href="/auth/register">تسجيل مستخدم  جديد</a>
+             </p>
+             <div class="shape" >
                 <div></div>
                <div></div>
                <div></div>
