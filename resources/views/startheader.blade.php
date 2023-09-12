@@ -20,5 +20,8 @@
           <meta name="twitter:description" content="{{$meta_description}}">
           <meta name="twitter:site" content="{{$url}}">
           <meta name="twitter:image" content="{{$og_image}}">
+          <meta property="og:image:secure_url" content="{{$og_image}}" />
+          <meta property="og:image:width" content="400" />
+          <meta property="og:image:height" content="300" />
           @endisset
           <title><?php if(isset($title)) echo $title; else echo 'اللقاء الاول'; ?></title>
