@@ -11,7 +11,7 @@
                  </div>
                  <div class="col-xs-6">
                      <div class="logo" itemscope itemtype="https://schema.org/Organization">
-                         <meta itemprop="url" content="http://www.first-meeting.com">
+                         <meta itemprop="url" content="http://www.first-meeting.net">
                          <img itemprop="logo" src="<?php echo e(asset('images/icons/logo.png')); ?>">
                          <h2 itemprop="name">first meeting</h2>
                      </div>
@@ -154,4 +154,4 @@
     <?php $__env->stopSection(); ?>
 
 
-<?php echo $__env->make('index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\first-meeting.com\resources\views/articles/all.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\first-meeting.net\resources\views/articles/all.blade.php ENDPATH**/ ?>

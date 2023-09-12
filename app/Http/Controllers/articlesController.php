@@ -10,8 +10,8 @@ class articlesController extends Controller
     public function all() {
         $meta_description = 'مقالات تتيح للناس قرائه اخر الاخبار وتصفح اخر الاحداث من خلالها';
         $keywords = 'first meeting , articles , مقالات , اخر الاخبار';
-        $url = 'first-meeting.com';
-        $og_image = 'first-meeting.com/public/images/icons/logo.png';
+        $url = 'first-meeting.net';
+        $og_image = 'first-meeting.net/public/images/icons/logo.png';
         $articles_types_all = \App\article_type::all();
         $most_read = \App\articles::orderBy('seen','DESC')->limit(6)->get();
         return view('articles.all',
@@ -37,8 +37,8 @@ class articlesController extends Controller
         }else{
             $meta_description = 'مقالات تتيح للناس قرائه اخر الاخبار وتصفح اخر الاحداث من خلالها';
             $keywords = 'first meeting , articles , مقالات , اخر الاخبار';
-            $url = 'first-meeting.com';
-            $og_image = 'first-meeting.com/public/images/icons/logo.png';
+            $url = 'first-meeting.net';
+            $og_image = 'first-meeting.net/public/images/icons/logo.png';
             $articles_types_all = $sub_data;
             $most_read = \App\articles::where('article_type_id','=',$sub_data->id)->orderBy('seen','DESC')->limit(6)->get();
             return view('articles.all',
@@ -70,8 +70,8 @@ class articlesController extends Controller
                     $article->save();
                     $keywords = str_replace('-', ',', $article->tags);
                     $meta_description = $article->description;
-                    $url = 'first-meeting.com';
-                    $og_image = 'first-meeting.com/public/images/icons/logo.png';
+                    $url = 'first-meeting.net';
+                    $og_image = 'first-meeting.net/public/images/icons/logo.png';
                     $same_articles = \App\articles::where('article_type_id','=',$article_type_data->id)->where('id','!=',$article->id)->limit(4)->get();
                     return view('articles.article',
                             [

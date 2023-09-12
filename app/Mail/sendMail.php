@@ -29,6 +29,8 @@ class sendMail extends Mailable
      */
     public function build()
     {
-        return $this->from('info@first-meeting.com')->subject('اعاده تعيين كلمه السر')->view('auth.email_msg')->with('data', $this->data);
+        return $this->from('info@first-meeting.net')
+            ->subject('اعاده تعيين كلمه السر')
+            ->view('auth.email_msg')->with('data', $this->data);
     }
 }

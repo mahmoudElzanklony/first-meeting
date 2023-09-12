@@ -12,7 +12,7 @@
                  </div>
                  <div class="col-xs-6">
                      <div class="logo" itemscope itemtype="https://schema.org/Organization">
-                         <meta itemprop="url" content="http://www.first-meeting.com">
+                         <meta itemprop="url" content="http://www.first-meeting.net">
                          <img itemprop="logo" src="{{asset('images/icons/logo.png')}}">
                          <h2 itemprop="name">first meeting</h2>
                      </div>

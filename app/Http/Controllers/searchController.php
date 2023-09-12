@@ -9,13 +9,13 @@ class searchController extends Controller
     public function search() {
         $meta_description = 'تستطيع البحث عن صديق لك عن طريق كتابه اسمه او الايمل الخاص به لارسال رساله نصيه علي الهاتف المحمول او علي حسابه الشخصي في سريه تامه كما تستطيع اضافه اي شخص مقرب لك في المفضله الخاصه لديك';
         $keywords = 'search page , first meeting | search page , search , صفحه البحث عن صديق , البحث , اللقاء الاول | البحث عن صديق ';
-        $url = 'first-meeting.com/search';
+        $url = 'first-meeting.net/search';
         $all_users = \App\User::where('id','!=', auth()->user()->id)->limit(8)->get();
         // get country id of user login
         //$user_country = \App\cities::find(auth()->user()->city_id);
         //$all_cities = \App\cities::where('country_id','=',$user_country->country_id)->get();
         $all_countries = \App\countries::all();
-        $og_image = 'first-meeting.com/public/images/icons/logo.png';
+        $og_image = 'first-meeting.net/public/images/icons/logo.png';
         return view('search/default',
                 [
                     'title'=>'البحث عن صديق',             

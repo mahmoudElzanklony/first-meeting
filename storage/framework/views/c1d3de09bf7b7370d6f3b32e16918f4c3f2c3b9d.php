@@ -72,9 +72,9 @@
                         <span>مشاركه الملف الشخصي</span>
                         <div class="clear"></div>
                         <p>
-                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://first-meeting.com/sending/<?php echo e(auth()->user()->id); ?>"><img src='<?php echo e(asset("images/icons/facebook.png")); ?>'></a>
-                            <a target="_blank" href="https://twitter.com/intent/tweet?url=https://first-meeting.com/sending/<?php echo e(auth()->user()->id); ?>"><img src='<?php echo e(asset("images/icons/twitter.png")); ?>'></a>
-                            <a target="_blank" href="https://web.whatsapp.com/send?text=https://first-meeting.com/sending/<?php echo e(auth()->user()->id); ?>"><img style="width: 100px;margin-right: 0;" src='<?php echo e(asset("images/icons/whatsapp.png")); ?>'></a>
+                            <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://first-meeting.net/sending/<?php echo e(auth()->user()->id); ?>"><img src='<?php echo e(asset("images/icons/facebook.png")); ?>'></a>
+                            <a target="_blank" href="https://twitter.com/intent/tweet?url=https://first-meeting.net/sending/<?php echo e(auth()->user()->id); ?>"><img src='<?php echo e(asset("images/icons/twitter.png")); ?>'></a>
+                            <a target="_blank" href="https://web.whatsapp.com/send?text=https://first-meeting.net/sending/<?php echo e(auth()->user()->id); ?>"><img style="width: 100px;margin-right: 0;" src='<?php echo e(asset("images/icons/whatsapp.png")); ?>'></a>
                         </p>
                     </div>
                     <div>
@@ -555,4 +555,4 @@
 }
                 </script>
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\first-meeting.com\resources\views/profile/default.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\first-meeting.net\resources\views/profile/default.blade.php ENDPATH**/ ?>

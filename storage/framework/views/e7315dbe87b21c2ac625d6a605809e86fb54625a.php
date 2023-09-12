@@ -75,4 +75,4 @@
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="<?php echo e(asset('js/plugin.js')); ?>"></script>
   
-</html><?php /**PATH E:\first-meeting.com\resources\views/endbody.blade.php ENDPATH**/ ?>
+</html><?php /**PATH E:\first-meeting.net\resources\views/endbody.blade.php ENDPATH**/ ?>

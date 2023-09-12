@@ -57,4 +57,4 @@
 
 
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\first-meeting.com\resources\views/sending/default.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('index', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\first-meeting.net\resources\views/sending/default.blade.php ENDPATH**/ ?>

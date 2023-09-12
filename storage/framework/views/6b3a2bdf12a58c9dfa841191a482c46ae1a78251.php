@@ -4,4 +4,4 @@
 <?php echo $__env->yieldContent('content'); ?>
 <?php echo $__env->make('endbody', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
-<?php /**PATH E:\first-meeting.com\resources\views/index.blade.php ENDPATH**/ ?>
+<?php /**PATH E:\first-meeting.net\resources\views/index.blade.php ENDPATH**/ ?>

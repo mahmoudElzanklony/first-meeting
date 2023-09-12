@@ -40,8 +40,8 @@ class LoginController extends Controller
     public function showreset() {
         $meta_description = 'اذا كنت قد نسيت كلمه المرور الخاصه بك يمكنك اعاده تعيينها من هنا';
         $keywords = 'اعاده تعيين كلمه المرور , reset password , نسيت كلمه المرور';
-        $url = 'first-meeting.com';
-        $og_image = 'first-meeting.com/public/images/icons/logo.png';
+        $url = 'first-meeting.net';
+        $og_image = 'first-meeting.net/public/images/icons/logo.png';
         return view('auth.passwords.reset',
                 [
                     'title'=>'اعاده تعيين كلمه المرور',
@@ -76,8 +76,8 @@ class LoginController extends Controller
             if($user->key == $key){
                 $meta_description = 'اذا كنت قد نسيت كلمه المرور الخاصه بك يمكنك اعاده تعيينها من هنا';
                 $keywords = 'اعاده تعيين كلمه المرور , reset password , نسيت كلمه المرور';
-                $url = 'first-meeting.com';
-                $og_image = 'first-meeting.com/public/images/icons/logo.png';
+                $url = 'first-meeting.net';
+                $og_image = 'first-meeting.net/public/images/icons/logo.png';
                 return view('auth.passwords.newpass',
                         [
                             'title'=>'اعاده تعيين كلمه المرور',

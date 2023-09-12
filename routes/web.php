@@ -18,8 +18,8 @@ use Spatie\Sitemap\SitemapGenerator;
 /*Route::get('/', function () {
     $meta_description = 'اللقاء الاول هو موقع يعبر فيه كل صديق عن رائيه في اول لقاء بين اقرب الاصدقاء له بدون معرفه هويته   كما  يستطيع اخباره بأنطباعه عنه  عن طريق ارسال رساله الي الحساب الخاص به او علي جواله في سريه تامه ';
     $keywords = 'first meeting , first , meeting , اللقاء الاول , الانطباعات , اول لقاء , اول انطباع عن صديقك المقرب';
-    $url = 'first-meeting.com';
-    $og_image = 'first-meeting.com/public/images/icons/logo.png';
+    $url = 'first-meeting.net';
+    $og_image = 'first-meeting.net/public/images/icons/logo.png';
     return view('index/welcome',
             [
                 'title'=>'اللقاء الاول | الصفحه الرئيسيه',
@@ -41,8 +41,8 @@ Route::get('/sitemap', function (){
 Route::get('/policy',function(){
     $meta_description = 'سياسه الخصوصيه الخاصه بموقع اللقاء الاول الذي يجب اتباعها';
     $keywords = 'first meeting policy , policy , سياسه الخصويه ';
-    $url = 'first-meeting.com';
-    $og_image = 'first-meeting.com/public/images/icons/logo.png';
+    $url = 'first-meeting.net';
+    $og_image = 'first-meeting.net/public/images/icons/logo.png';
     return view('policy',
             [
                 'title'=>'اللقاء الاول | سياسه الخصوصيه ',
@@ -56,8 +56,8 @@ Route::get('/policy',function(){
 Route::get('/whous',function(){
     $meta_description = 'من نحن ؟ نحن فريق من المطورين قمنا ببناء المشروع تحت اشراف المهندس محمود عبد الله';
     $keywords = 'من نحن , نبذه عنا ,who us';
-    $url = 'first-meeting.com';
-    $og_image = 'first-meeting.com/public/images/icons/logo.png';
+    $url = 'first-meeting.net';
+    $og_image = 'first-meeting.net/public/images/icons/logo.png';
     return view('whous',
             [
                 'title'=>'اللقاء الاول | من نحن  ',
@@ -72,8 +72,8 @@ Route::get('/whous',function(){
 Route::get('/contactus',function(){
     $meta_description = 'اذا كان لديك سؤال ما يمكنك التواصل معنا من خلال كتابه نص السؤال وارساله لنا';
     $keywords = 'تواصل معنا , contact us , اكتب رساله استفساراتك هنا';
-    $url = 'first-meeting.com';
-    $og_image = 'first-meeting.com/public/images/icons/logo.png';
+    $url = 'first-meeting.net';
+    $og_image = 'first-meeting.net/public/images/icons/logo.png';
     return view('contactus',
             [
                 'title'=>'اللقاء الاول | التواصل   ',
@@ -88,8 +88,8 @@ Route::get('/contactus',function(){
 Route::get('/usage-agreement', function (){
     $meta_description = 'اتفاقيه الاستخدام  الخاصه بموقع اللقاء الاول الذي يجب اتباعها';
     $keywords = 'first meeting usage-agreement , usage-agreement , اتفاقيه الاستخدام  ';
-    $url = 'first-meeting.com/usage-agreement';
-    $og_image = 'first-meeting.com/public/images/icons/logo.png';
+    $url = 'first-meeting.net/usage-agreement';
+    $og_image = 'first-meeting.net/public/images/icons/logo.png';
     return view('agreement',
             [
                 'title'=>'اللقاء الاول | سياسه الخصوصيه ',
@@ -148,8 +148,8 @@ Route::get('/sending/{id}','sendingController@send')->where('id','[0-9]+');
 Route::get('/posts', function () {
         $meta_description = 'تستطيع ان تخبر الجميع عن انطباعك عن صديقك المقرب او حدث معين في ذاكرتك ويستطيع الجميل رؤيه ذلك الحدث مع التحكم هل تظهر بهويتك الحقيقه ام مجهول الهويه ويقوم كل من رؤيه الحدث بالتفاعل مع هذا الحدث  ';
         $keywords = 'events , reactions , posts , منشورات , الانطباعات  , تفاعلات , انطباعات اللقاء الاول , اللقاء الاول | الانطباعات';
-        $url = 'first-meeting.com/posts';
-        $og_image = 'first-meeting.com/public/images/icons/logo.png';
+        $url = 'first-meeting.net/posts';
+        $og_image = 'first-meeting.net/public/images/icons/logo.png';
     return view('posts/default',
             [
                 'title'=>'الانطباعات',             

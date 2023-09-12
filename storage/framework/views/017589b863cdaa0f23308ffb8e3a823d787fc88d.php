@@ -21,4 +21,4 @@
           <meta name="twitter:site" content="<?php echo e($url); ?>">
           <meta name="twitter:image" content="<?php echo e($og_image); ?>">
           <?php endif; ?>
-          <title><?php if(isset($title)) echo $title; else echo 'اللقاء الاول'; ?></title><?php /**PATH E:\first-meeting.com\resources\views/startheader.blade.php ENDPATH**/ ?>
+          <title><?php if(isset($title)) echo $title; else echo 'اللقاء الاول'; ?></title><?php /**PATH E:\first-meeting.net\resources\views/startheader.blade.php ENDPATH**/ ?>

@@ -9,11 +9,11 @@ class sendingController extends Controller
     public function send() {
         $meta_description = 'تستطيع ارسال رساله لصديقك المقرب تخبره انطباعك عن اول لقاء شاهدته فيه ثم تقوم بارسال الرساله اما عن طريق حسابه الشخصي علي الموقع او عن طريق هاتفه المحمول في سريه تامه';
         $keywords = 'sending message , sending message | first meeting , ارسال رساله لصديقك المقرب , اخبر صديقك المقرب عن انطابعك عنه في سريه تامه , ارسل رساله علي الموبيل لصديقك في اللقاء الاول';
-        $url = 'first-meeting.com/sending';
+        $url = 'first-meeting.net/sending';
         if(auth()->check()){
-           $og_image = 'first-meeting.com/public/images/users/'.auth()->user()->image;
+           $og_image = 'first-meeting.net/public/images/users/'.auth()->user()->image;
         }else{
-           $og_image = 'first-meeting.com/public/images/users/default.png';
+           $og_image = 'first-meeting.net/public/images/users/default.png';
         }
         $id = request()->segment(2);
         if(auth()->check()){

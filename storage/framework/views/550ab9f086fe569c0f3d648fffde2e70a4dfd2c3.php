@@ -5,4 +5,4 @@
   <link rel="stylesheet" href="<?php echo e(asset('css/line-awesome.min.css')); ?>">
   <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
-</head><?php /**PATH E:\first-meeting.com\resources\views/endheader.blade.php ENDPATH**/ ?>
+</head><?php /**PATH E:\first-meeting.net\resources\views/endheader.blade.php ENDPATH**/ ?>

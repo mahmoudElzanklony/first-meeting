@@ -21,8 +21,8 @@ class controlpanelController extends Controller{
     public function showLogin() {
             $meta_description = 'اللقاء الاول هو موقع يعبر فيه كل صديق عن رائيه في اول لقاء بين اقرب الاصدقاء له بدون معرفه هويته   كما  يستطيع اخباره بأنطباعه عنه  عن طريق ارسال رساله الي الحساب الخاص به او علي جواله في سريه تامه ';
             $keywords = 'first meeting , first , meeting , اللقاء الاول , الانطباعات , اول لقاء , اول انطباع عن صديقك المقرب';
-            $url = 'first-meeting.com';
-            $og_image = 'first-meeting.com/public/images/icons/logo.png';
+            $url = 'first-meeting.net';
+            $og_image = 'first-meeting.net/public/images/icons/logo.png';
                     
 
         if(auth()->guard('web')->check()){
