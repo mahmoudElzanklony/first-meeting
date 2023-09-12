@@ -9,14 +9,14 @@ class profileController extends Controller
     public function home() {
         $meta_description = 'الملف الشخصي حيث تستطيع معرفه صندوق الوارد الخاص بك وتتوقع هويه الاشخاص الذين قامو بارسال رسائل لك كما تستطيع رؤيه الرسائل الذي قمت بأرسالها لأصدقائك ومعرفه نقاطك والاحصائيات الخاصه بك  ';
         $keywords = 'first meeting | profile page ,profile,profile page, my information ,الملف الشخصي ,اللقاء الاول | الملف الشخصي,معلوماتي الشخصيه';
-        $url = 'first-meeting.net/profile/default';
+        $url = 'https://first-meeting.net/profile/default';
         $personal_info = auth()->user();
         $my_inbox = \App\messages::where('receiver_id','=', auth()->user()->id)->orderBy('id','DESC')->get();
         $sending_messages = \App\messages::where('sender_id','=', auth()->user()->id)->orderBy('id','DESC')->get();
         $my_fav = \App\favourite::where('user_id','=', auth()->user()->id)->orderBy('id','DESC')->get();
         $expectations = \App\expectations::where('user_id','=', auth()->user()->id)->orWhere('receiver_id','=', auth()->user()->id)->orderBy('id','DESC')->get();
          $cities = \App\cities::all();
-        $og_image = 'first-meeting.net/public/images/users/'.auth()->user()->image;
+        $og_image = 'https://first-meeting.net/public/images/users/'.auth()->user()->image;
         return View('profile.default',
               [
                 'title'=>'الملف الشخصي',
