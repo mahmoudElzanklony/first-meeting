@@ -30,8 +30,8 @@
                     <input type="submit" value="تسجيل الدخول" class="btn btn-primary btn-block"> 
                 </div>
             </form>
-             <p><a href="/auth/reset"> نسيت كلمه المرور!!</a></p>
-             <p>
+             <p style="margin: 0px"><a href="/auth/reset"> نسيت كلمه المرور!!</a></p>
+             <p style="margin: 0px">
                  <span>ليس لديك حساب</span>
                  <a href="/auth/register">تسجيل مستخدم  جديد</a>
              </p>
