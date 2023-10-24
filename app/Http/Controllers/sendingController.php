@@ -9,12 +9,13 @@ class sendingController extends Controller
     public function send() {
         $meta_description = 'تستطيع ارسال رساله لصديقك المقرب تخبره انطباعك عن اول لقاء شاهدته فيه ثم تقوم بارسال الرساله اما عن طريق حسابه الشخصي علي الموقع او عن طريق هاتفه المحمول في سريه تامه';
         $keywords = 'sending message , sending message | first meeting , ارسال رساله لصديقك المقرب , اخبر صديقك المقرب عن انطابعك عنه في سريه تامه , ارسل رساله علي الموبيل لصديقك في اللقاء الاول';
-        $url = 'first-meeting.net/sending';
-        $og_image = 'first-meeting.net/public/images/users/default.png';
         $id = request()->segment(2);
+        $url = 'https://first-meeting.net/sending/'.$id;
+        $og_image = 'https://first-meeting.net/public/images/users/default.png';
+
         $user_to_send = \App\User::find($id);
        if($user_to_send != null){
-           $og_image = 'first-meeting.net/public/images/users/'.$user_to_send->image;
+           $og_image = 'https://first-meeting.net/public/images/users/'.$user_to_send->image;
        }
 
 

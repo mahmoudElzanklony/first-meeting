@@ -78,7 +78,7 @@ class profileController extends Controller
                                 if($sender_country == $receiver_country){
                                     $user->no_mobile_messages = $user->no_mobile_messages - $no_messages_sent;
                                     $user->save();
-                                    $endpoint = "https://smssmartegypt.com/sms/api/?username=9Wl%237c1&password=zanklony202017&sendername=First Meet&mobiles=20".intval(\App\User::find($receiver_id)->phone)."&message=". urlencode(request('message'))."&Content-Type=application/json;charset=utf-8";
+                                    $endpoint = "https://smssmartegypt.com/sms/api/?username=9Wl#7c1&password=1M@COB=?D=U:&sendername=First Meet&mobiles=20".intval(\App\User::find($receiver_id)->phone)."&message=". urlencode(request('message'))."&Content-Type=application/json;charset=utf-8";
                                     
                                     $client = new \GuzzleHttp\Client();
 

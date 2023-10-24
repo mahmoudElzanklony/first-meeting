@@ -103,10 +103,10 @@
                         @else
                             
                          <li class="nav-icon">
-                             <a href="/auth/register" class="btn btn-primary">انضم الينا</a>
+                             <a href="/auth/register" class="btn btn-primary">مستخدم جديد</a>
                          </li>
                          <li class="nav-icon">
-                              <a href="/auth/login" class="btn">دخول</a>
+                              <a href="/auth/login" class="btn">تسجيل  دخول</a>
                          </li>
                         @endif
                        
